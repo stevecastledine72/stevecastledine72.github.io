@@ -150,6 +150,12 @@ section:last-child {
 	margin-bottom: -2px;
 }
 
+.sectionContent .position{
+	color: #444;
+	font-size: 0.9em;
+	font-weight:bold;
+}
+
 .sectionContent .company{
 	color: #444;
 	font-size: 0.7em;
