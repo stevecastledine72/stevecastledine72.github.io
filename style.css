@@ -74,7 +74,7 @@ p {
 
 @media screen and (min-width: 800px) {
   .nav li {
-    width: 120px;
+    width: 150px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
