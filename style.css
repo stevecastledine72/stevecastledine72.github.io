@@ -152,6 +152,12 @@ section:last-child {
 
 .sectionContent .company{
 	color: #444;
+	font-size: 1.0em;
+	font-weight:bold;
+}
+
+.sectionContent .timeframe{
+	color: #444;
 	font-size: 0.7em;
 }
 
