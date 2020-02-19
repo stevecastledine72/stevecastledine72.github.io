@@ -131,7 +131,9 @@ section:last-child {
 
 .sectionTitle li{
 	color: #444; 
-	text-decoration: none;
+	font-size: 1.2em;
+	list-style-type: none;
+	margin-left:5px;
 }
 
 .sectionContent h2 {
