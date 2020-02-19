@@ -150,6 +150,11 @@ section:last-child {
 	margin-bottom: -2px;
 }
 
+.sectionContent .company{
+	color: #444;
+	font-size: 0.7em;
+}
+
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
