@@ -85,9 +85,14 @@
                     <p>All of 2019 and some of 2020 I spent on a single project at a bank mostly in London but some time in Zurich. This
                         project was for introducing a new legal hold management system into a bank, migrating content from an old system and
                         integrating HR, Security, other legal hold management systems. The product being installed being IBM StoredIQ for
-                        Legal. My role on this project was as Technical Lead, Consultant, Integration Architect and eventually engineer for
+                        Legal. My role on this project was as Technical Lead and Integration Architect and eventually engineer for
                         some of the solution.</p>
+
+                    <p>The project was interesting as it was pretty greenfield in that we started from nothing and had to find out for ourselves the processes, systems in place, and how the bank 'did things'. It took awhile to figure this out and get the design documentspublished and approved.</p>
             
+                    <p>As well as installing and configuring the main product (simple really - Linux based containerised appliance), and integrating it with the usual email gateways, SSO (Siteminder), and then building the worflows using BPMN (that is a time consumin task), we also had to design and build from scratch an integration server based on RHEL7.5 with Python 3.</p>
+                
+                <p>This Python framework then handled all data movement (and full ETL processing), mainly using data traansfer or MS SQL database views and moving data to REST services on the target system. It also handled the migration, logging, backup and monitoring required by the bank.</p>
                 </div>
                 <div class="clear"></div>
             </section>
