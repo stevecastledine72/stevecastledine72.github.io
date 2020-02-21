@@ -179,11 +179,10 @@
                         This
                         project was for introducing a new legal hold management system into a bank, performing data analysis,
                         migrating content from an old system and
-                        integrating HR, Security, other legal hold management systems. The product being installed being IBM
+                        integrating HR, Security, other legal hold management systems. The product being installed being <a href="https://www.ibm.com/products/storediq-for-legal">IBM
                         StoredIQ for
-                        Legal. My role on this project was as Technical Lead and Integration Architect and eventually Software
-                        Engineer for
-                        some of the solution.</p>
+                        Legal</a>. My role on this project was as Technical Lead and Integration Architect and eventually Software
+                        Engineer for the ETL layer of the solution.</p>
             
                     <p>The project was interesting as it was pretty greenfield in that we started from nothing and had to find out
                         for ourselves the processes, systems in place, and how the bank 'did things'. It took awhile to figure this
@@ -195,10 +194,10 @@
                         based on RHEL7.5 with Python 3.</p>
             
                     <p>This Python framework then handled all data movement (and full ETL processing), mainly using csv data
-                        transfer or MS SQL database views and transforming and then moving the data to REST services on the target
+                        transfer or MS SQL database views and transforming (using an embedded SQLite database for caching/indexing) and then moving the data to REST services on the target
                         system (some of this was some 500,000 HR records, delta'ed by this code each night). It also handled the
                         automated server configuration, account security, migration, logging, backup and monitoring required by the
-                        bank.</p>
+                        bank. Tranformation's were controlled by object oriented Pyhton code and mapping files to keep it seperate from business and load logic.</p>
                     <p>The framework code itself was kept in Git and then we used Jenkins to package the code and distribute to
                         target servers when builds were ready.</p>
                     <p>All in all this was a high pressure project and the first stage was delivered in 9 months from scratch with
@@ -224,7 +223,7 @@
                     <span class='timeframe'>March 2017 - January 2020</span></div>
                     <p>Consultant and Technical Lead for IBM UK Services undertaking various IT projects including:</p>
                     <p>Technical Lead and Integration Architect on a StoredIQ For Legal project providing legal hold matter management and
-                    integration for Large Swiss Bank in London and Zurich. Integration with HR, security and global legal hold systems. Designed/implemented a full integration and deployment
+                    integration for Large Bank in London and Zurich. Integration with HR, security and global legal hold systems. Designed/implemented a full integration and deployment
                     automation suite running on Red Hat Linux server with Python 3, shell, Git, Postgres, sqlite, Jenkins, Autosys,
                     monitoring, backup automation</p>
                     <p>Remote development/support team lead</p>
