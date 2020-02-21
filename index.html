@@ -88,29 +88,6 @@
                 <div class="clear"></div>
             </section>
 
-            <section id="lastproject">
-                <div class="sectionTitle">
-                    <h1>Last Project</h1>
-                </div>
-            
-                <div class="sectionContent">
-                    <p>All of 2019 and some of 2020 I spent on a single project at a bank mostly in London but some time in Zurich. This
-                        project was for introducing a new legal hold management system into a bank, performing data analysis, migrating content from an old system and
-                        integrating HR, Security, other legal hold management systems. The product being installed being IBM StoredIQ for
-                        Legal. My role on this project was as Technical Lead and Integration Architect and eventually Software Engineer for
-                        some of the solution.</p>
-
-                    <p>The project was interesting as it was pretty greenfield in that we started from nothing and had to find out for ourselves the processes, systems in place, and how the bank 'did things'. It took awhile to figure this out and get the design documents published and approved.</p>
-            
-                    <p>As well as installing and configuring the main product (simple really - Linux based containerised appliance), and integrating it with the usual email gateways, SSO (Siteminder), and then building the workflows using BPMN (that is a time consuming task), we also had to design and build from scratch an integration server based on RHEL7.5 with Python 3.</p>
-                
-                <p>This Python framework then handled all data movement (and full ETL processing), mainly using csv data transfer or MS SQL database views and transforming and then moving the data to REST services on the target system (some of this was some 500,000 HR records, delta'ed by this code each night). It also handled the automated server configuration, account security, migration, logging, backup and monitoring required by the bank.</p>
-                <p>The framework code itself was kept in Git and then we used Jenkins to package the code and distribute to target servers when builds were ready.</p>
-                <p>All in all this was a high pressure project and the first stage was delivered in 9 months from scratch with the all the above working with the minimal of staffing.</p>
-                </div>
-                <div class="clear"></div>
-            </section>
-
             <section id="disciplines">
                 <div class="sectionTitle">
                     <h1>Disciplines</h1>
@@ -179,8 +156,8 @@
                     <p>More recently I have been learning AWS and Azure and understand compute instance's, snapshots, networking/ip's and deploying environments and software in those clouds. I also know other areas such as S3, automation, scaling but that knowledge is still being developed.</p>
                     
                     <h2 id="ediscovery">eDiscovery</h2>
-                    <p>Part of my Consultancy role at IBM was around a product StoredIQ (eDiscovery). I installed and configured this product (linux containerised appliance) at various organisations and then designed data capture and analysis (regex mainly) using the product in order to assess the data landscape for GDPR purposes, data retention, mergers and aquisitions data discovery.</p>
-                    <p>In addition to StoredIQ I also worked extensively with a product StoredIQ For Legal (they do connect but otherwise are completely different). I can install, configure and integrate this product in the enterprise (probably one of the most knowlegeable in the world). I also can wrote workflow using BPMN and know the consult required to use this product as a Legal Hold management system.</p>
+                    <p>Part of my Consultancy role at IBM was around a product <a href="https://www.ibm.com/products/storediq-suite">StoredIQ</a> (eDiscovery). I installed and configured this product (linux containerised appliance) at various organisations and then designed data capture and analysis (regex mainly) using the product in order to assess the data landscape for GDPR purposes, data retention, mergers and aquisitions data discovery.</p>
+                    <p>In addition to StoredIQ I also worked extensively with a product <a href="https://www.ibm.com/products/storediq-for-legal">StoredIQ For Legal</a> (they do connect but otherwise are completely different). I can install, configure and integrate this product in the enterprise (probably one of the most knowlegeable in the world). I also can wrote workflow using BPMN and know the consult required to use this product as a Legal Hold management system.</p>
                 
                     <h2 id="governance">Data Governance</h2>
                     <p>As well as GDPR projects using StoredIQ, I have also worked on Master Data Management (MDM) projects as part of a data governance strategy. I can install and configure IBM Websphere and Information Server together with MDM components. I can also consult on the data strategy and write extensions to the main product in Java. As an extension to this I can also work with IBM MQ and IBM BPM and setup the DB2 or Oracle databases.</p>
@@ -191,7 +168,45 @@
                 </div>
                 <div class="clear"></div>
             </section>
-
+            
+            <section id="lastproject">
+                <div class="sectionTitle">
+                    <h1>Last Project</h1>
+                </div>
+            
+                <div class="sectionContent">
+                    <p>All of 2019 and some of 2020 I spent on a single project at a bank mostly in London but some time in Zurich.
+                        This
+                        project was for introducing a new legal hold management system into a bank, performing data analysis,
+                        migrating content from an old system and
+                        integrating HR, Security, other legal hold management systems. The product being installed being IBM
+                        StoredIQ for
+                        Legal. My role on this project was as Technical Lead and Integration Architect and eventually Software
+                        Engineer for
+                        some of the solution.</p>
+            
+                    <p>The project was interesting as it was pretty greenfield in that we started from nothing and had to find out
+                        for ourselves the processes, systems in place, and how the bank 'did things'. It took awhile to figure this
+                        out and get the design documents published and approved.</p>
+            
+                    <p>As well as installing and configuring the main product (simple really - Linux based containerised appliance),
+                        and integrating it with the usual email gateways, SSO (Siteminder), and then building the workflows using
+                        BPMN (that is a time consuming task), we also had to design and build from scratch an integration server
+                        based on RHEL7.5 with Python 3.</p>
+            
+                    <p>This Python framework then handled all data movement (and full ETL processing), mainly using csv data
+                        transfer or MS SQL database views and transforming and then moving the data to REST services on the target
+                        system (some of this was some 500,000 HR records, delta'ed by this code each night). It also handled the
+                        automated server configuration, account security, migration, logging, backup and monitoring required by the
+                        bank.</p>
+                    <p>The framework code itself was kept in Git and then we used Jenkins to package the code and distribute to
+                        target servers when builds were ready.</p>
+                    <p>All in all this was a high pressure project and the first stage was delivered in 9 months from scratch with
+                        the all the above working with the minimal of staffing.</p>
+                </div>
+                <div class="clear"></div>
+            </section>
+            
             <section id="careerhistory">
                 <div class="sectionTitle">
                     <h1>Career History</h1>
